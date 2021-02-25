@@ -15,5 +15,8 @@ Pod::Spec.new do |spec|
   #spec.framework        = 'SystemConfiguration'
   spec.requires_arc     = true
   
+  spec.swift_version = '4.2'
+  spec.ios.deployment_target = '10.0'
+
   
 end
